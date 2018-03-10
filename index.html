@@ -1,75 +1,61 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="ru">
-  <head>
-    <meta charset="utf-8">
-    <title>HTML Academy: Седона</title>
-  </head>
-  <body>
-    <header class="main-header">
-      <nav class="main-navigation">
-        <ul class="site-navigation">
-			<li><a href="info.html">ИНФОРМАЦИЯ</a></li>
-			<li><a href="news.html">ФОТО И ВИДЕО</a></li>
-			<li>
-				<a class="main-header-logo" href="index.html">
-					<img src="img/logo.svg" width="111" height="24" alt="Логотип Седона">
-				</a>
-			</li>
-			<li><a href="price.html">КАРТА ШТАТА</a></li>
-			<li><a href="catalog.html">ГОСТИНИЦЫ</a></li>
-        </ul>		
-      </nav>
-    </header>	
-
-	<main class="container">	
+	<head>
+		<meta charset="utf-8">
+		<title>HTML Academy: Седона</title>
+	</head>
+	<body>
 	
-		<section class="large-picture">
-			<img src="img/main_view.svg" width="100%" height="240" alt="Седона">
+		<section class="logo">
+			<a class="main-header-logo" href="index.html">
+				<img src="img/logo.svg" width="100%" height="24" alt="Логотип Седона">
+			</a>
+		</section>
+		<section class="main-navigation">				
+			<div><a href="info.html">Информация</a></div>		
+			<div><a href="photo.html">Фото и видео </a></div>		
+			<div></div>					
+			<div><a href="map.html">Карта штата</a></div>					
+			<div><a href="catalog.html">Гостиницы </a></div>								
+		</section>	
+		
+		<main class="container">	
+	
+		<section class="welcome">	
 		</section>
 	
 		<section class="intro">
-			<H4>СЕДОНА - НЕБОЛЬШОЙ ГОРОДОК В АРИЗОНЕ, ЗАСЛУЖИВАЮЩИЙ БОЛЬШЕГО !</H4>
-			<H5>РАССМОТРИМ 5 ПРИЧИН, ПО КОТОРЫМ СЕДОНА КРУЧЕ, ЧЕМ ГРАНД-КАНЬОН !</H5>	
+			<div>СЕДОНА - НЕБОЛЬШОЙ ГОРОДОК В АРИЗОНЕ, ЗАСЛУЖИВАЮЩИЙ БОЛЬШЕГО !</div>
+			<div>РАССМОТРИМ 5 ПРИЧИН, ПО КОТОРЫМ СЕДОНА КРУЧЕ, ЧЕМ ГРАНД-КАНЬОН !</div>	
 		</section>	
 
-		<section class="reason1">	
-			<ul class="site-navigation">
-				<li>НАСТОЯЩИЙ ГОРОДОК</li>
-				<li>Фото города</li>
-			</ul>			
+		<section class="reason1 site-navigation">	
+			<div>НАСТОЯЩИЙ ГОРОДОК</div>
+			<div>Фото города</div>
 		</section>		
 
-		<section class="bonus">	
-			<ul class="site-navigation">
-				<li>ЖИЛЬЁ</li>
-				<li>ЕДА</li>
-				<li>СУВЕНИРЫ</li>
-			</ul>			
+		<section class="bonus site-navigation">	
+			<div>ЖИЛЬЁ</div>
+			<div>ЕДА</div>
+			<div>СУВЕНИРЫ</div>
 		</section>		
 
-		<section class="reason2">	
-			<ul class="site-navigation">
-				<li><img src="img/diablo_road.svg" alt="фото моста дьявола"></li>
-				<li>ТАМ ЕСТЬ МОСТ ДЬЯВОЛА</li>
-			</ul>	
+		<section class="reason2 site-navigation">	
+			<div><img src="img/diablo_road.svg" alt="фото моста дьявола"></div>
+			<div>ТАМ ЕСТЬ МОСТ ДЬЯВОЛА</div>
 		</section>		
 
-		<section class="reason345">	
-			<ul class="site-navigation">
-				<li>НЕБОЛЬШАЯ ПЛОЩАДЬ</li>
-				<li>КРАСИВАЯ ДОРОГА</li>
-				<li>МАЛО ТУРИСТОВ</li>
-			</ul>	
+		<section class="reason345 site-navigation">	
+			<div>НЕБОЛЬШАЯ ПЛОЩАДЬ</div>
+			<div>КРАСИВАЯ ДОРОГА</div>
+			<div>МАЛО ТУРИСТОВ</div>
 		</section>		
 
-		<section class="interesting">	
-			<h1> Заинтересовались? </h1>
-			<h4> Укажите предполагаемые даты поездки</h4>
-			<h3> И мы покажем вам лучшие предложения гостиниц в Седоне</h3>
-		</section>		
-
-		<section class="hotel_form_poiska">	
-			<h1>ПОИСК ГОСТИНИЦЫ В СЕДОНЕ</h1>
+		<section class="hotel-form">	
+			<div> Заинтересовались? </div>
+			<div> Укажите предполагаемые даты поездки</div>
+			<div> И мы покажем вам лучшие предложения гостиниц в Седоне</div>
+			<div>ПОИСК ГОСТИНИЦЫ В СЕДОНЕ</div>
 			<a class="go-button" href="catalog.html">Найти   </a>
 		</section>		
 
@@ -80,21 +66,20 @@
 	</main> 
 	
 	<footer class="main-footer">
-		<p class="footer-contacts">
+		<div class="footer-contacts">
 			<a href="map.html">#VISITSEDONA</a>
-		</p>
-		<div class="footer-social">
-			<ul>
-				<li><a class="social-button" href="#">Вконтакте </a></li>
-				<li><a class="social-button" href="#">Фейсбук   </a></li>
-				<li><a class="social-button" href="#">Инстаграм </a></li>				
-			</ul>
 		</div>
-		<p class="footer-copyright"> WEBSITE BY </p>
-		<img src="img/html_academy.svg" width="40" height="40">		
-		<a href="map.html">Html Academy</a>		
-		
+		<div class="footer-social">
+			<div><a class="social-button" href="#">Вконтакте </a></div>
+			<div><a class="social-button" href="#">Фейсбук   </a></div>
+			<div><a class="social-button" href="#">Инстаграм </a></div>				
+		</div>
+		<div class="footer-copyright"> WEBSITE BY </div>
+			
+		<a href="map.html"><img src="img/html_academy.svg" width="40" height="40"></a>				
 	</footer>
+	
+	</div>   <!-- wrapper -->
 	
   </body>
 </html>
