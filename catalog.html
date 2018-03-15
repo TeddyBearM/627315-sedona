@@ -1,135 +1,113 @@
 <!DOCTYPE html>
+
 <html lang="ru">
+
 	<head>
 		<meta charset="utf-8">
-		<title>HTML Academy: Седона</title>
+		<title>HTML Academy: Седона, список отелей</title>
 	</head>
-	<body>
-
-		<div class="shadow">
 	
-		<header>
-			<section class="logo">
-				<a class="main-header-logo" href="index.html">
-					<img src="img/logo.svg" width="100%" height="24" alt="Логотип Седона">
-				</a>
-			</section>
-			<section class="main-navigation">				
-				<div><a href="info.html">Информация</a></div>		
-				<div><a href="photo.html">Фото и видео </a></div>		
-				<div></div>					
-				<div><a href="map.html">Карта штата</a></div>					
-				<div><a href="catalog.html">Гостиницы </a></div>								
+	<body>					
+		Site Sedona Catalog
+		<div class="main-container">
+			<br>section - main-container			
+			<section id="1" class="logo">
+				<br>section - logo
+				<div class="logo"><a href="index.html">CITY OF SEDONA</a></div>	
+			</section>			
+			<section id="2" class="header navigation">
+				<br>section - site navigation
+				<div class="header navigation">
+					<div>ИНФОРМАЦИЯ</div>
+					<div>ФОТО И ВИДЕО</div>
+					<div>КАРТА ШТАТА</div>
+					<div>ГОСТИНИЦЫ</div>
+				</div>
 			</section>	
-		</header>
-		
-		<main class="container">	
-	
-			<section class="search_params">			
-			</section>
-	
-			<section class="search_result">
-				<div>Найдено: 3</div>
-				<div>Сортировка</div>
-				<div class="sort">
-					<div>По цене</div>
-					<div>По типу</div>
-					<div>По рейтингу</div>
-				</div>
-			</section>
-
-		<section class="catalog catalog-list">			
+			<section id="3" class="search params">
+				<br>section - search params
+				<div>  <img src="img/search_params.jpg">	</div>	
+			</section>				
+			<section id="4" class="search result">
+				<br>section - search result
+				<div>НАЙДЕНО: 3</div>
+				<ol>СОРТИРОВКА
+					<li>ПО ЦЕНЕ</li>
+					<li>ПО ТИПУ</li>
+					<li>ПО РЕЙТИНГУ</li>
+				</ol>
+				<div><img src="img/arrow_up.jpg"></div>
+				<div><img src="img/arrow_down.jpg"></div>				
+			</section>	
 			
-				<div class="catalog-item" >
-					<div class="item_photo" style="background-image: url(../img/product-1.jpg);">
-						AMARA RESORT & SPA _ PHOTO
+			<section id="5" class="found hotels">			
+				<br>section - found hotels
+				
+				<br>hotel1
+				<div id="row1" class="hotel">			
+					<div id="col1" class="hotel_photo">
+						<img src="img/hotel1_photo.jpg">
 					</div>
-					<div class="item_select">
-						<a class="catalog-item-title" href="catalog-item.html">
-							AMARA RESORT & SPA
-						</a>					
-						<span class="catalog-category">
-							ГОСТИНИЦА
-						</span>
-						<span class="catalog-item_price">
-							ОТ 4000Р
-						</span>						
-						<a class="button more-info" href="#">Подробнее</a>							
-						<a class="button booking" href="#">Забронировать</a>													
-					</div>	
-					<div class="item_rating" >
-						<span>4 stars</span>																							
-						<span>Рейтинг: 8.5</span>					
-					</div>												
-				</div>
-
-				<div class="catalog-item" >
-					<div class="item_photo" style="background-image: url(../img/product-1.jpg);">
-						DESERT QUAIL INN _ PHOTO
+					<div id="col2" class="hotel_description">
+						<b>AMARA RESORT AND SPA</b>
+						<div>ГОСТИНИЦА ОТ 4000Р</div>
+						<button>ПОДРОБНЕЕ</button> 
+						<button>ЗАБРОНИРОВАТЬ</button>
 					</div>
-					<div class="item_select">
-						<a class="catalog-item-title" href="catalog-item.html">
-							DESERT QUAIL INN
-						</a>					
-						<span class="catalog-category">
-							МОТЕЛЬ
-						</span>
-						<span class="catalog-item_price">
-							ОТ 3000Р
-						</span>						
-						<a class="button more-info" href="#">Подробнее</a>							
-						<a class="button booking" href="#">Забронировать</a>													
-					</div>	
-					<div class="item_rating" >
-						<span>3 stars</span>																							
-						<span>Рейтинг: 8.9</span>					
-					</div>												
+					<div id="col3" class="hotel_rating">
+						<img src="img/stars.jpg" >
+						rating 8.9
+					</div>								
 				</div>
 				
-				<div class="catalog-item" >
-					<div class="item_photo" style="background-image: url(../img/product-1.jpg);">
-						VILLAS AT POCO DIABLO _ PHOTO
+				<br>hotel2
+				<div id="row2" class="hotel">			
+					<div id="col1" class="hotel_photo">
+						<img src="img/hotel1_photo.jpg">
 					</div>
-					<div class="item_select">
-						<a class="catalog-item-title" href="catalog-item.html">
-							VILLAS AT POCO DIABLO
-						</a>					
-						<span class="catalog-category">
-							АПАРТАМЕНТЫ
-						</span>
-						<span class="catalog-item_price">
-							ОТ 000Р
-						</span>						
-						<a class="button more-info" href="#">Подробнее</a>							
-						<a class="button booking" href="#">Забронировать</a>													
-					</div>	
-					<div class="item_rating" >
-						<span>2 stars</span>																							
-						<span>Рейтинг: 9.2</span>					
-					</div>												
-				</div>				
-
-		</section>
-		
-	</main> 
+					<div id="col2" class="hotel_description">
+						<b>DESERT QUAIL INN</b>
+						<div>МОТЕЛЬ ОТ 3000Р</div>
+						<button>ПОДРОБНЕЕ</button> 
+						<button>ЗАБРОНИРОВАТЬ</button>
+					</div>
+					<div id="col3" class="hotel_rating">
+						<img src="img/stars.jpg" >
+						rating 8.9
+					</div>								
+				</div>
+				
+				<br>hotel3
+				<div id="row3" class="hotel">			
+					<div id="col1" class="hotel_photo">
+						<img src="img/hotel1_photo.jpg">
+					</div>
+					<div id="col2" class="hotel_description">
+						<b>VILLAS AT POCO DIABLO</b>
+						<div>АПАРТАМЕНТЫ ОТ 2000Р</div>
+						<button>ПОДРОБНЕЕ</button> 
+						<button>ЗАБРОНИРОВАТЬ</button>
+					</div>
+					<div id="col3" class="hotel_rating">
+						<img src="img/stars.jpg" >
+						rating 8.9
+					</div>								
+				</div>
 	
-	<footer class="main-footer">
-		<div class="footer-contacts">
-			<a href="map.html">#VISITSEDONA</a>
-		</div>
-		<div class="footer-social">
-			<div><a class="social-button" href="#">Вконтакте </a></div>
-			<div><a class="social-button" href="#">Фейсбук   </a></div>
-			<div><a class="social-button" href="#">Инстаграм </a></div>				
-		</div>
-		<div class="footer-copyright"> WEBSITE BY </div>
+			</section>	
+
+			<section id="6" class="footer">
+				<br>section - footer
+				<div>
+					<div><a href='#'> #VISITSEDONA </a></div>
+					<div>  <img src="img/twitter.jpg">	</div>					
+					<div>  <img src="img/facebook.jpg"> </div>					
+					<div>  <img src="img/youtube.jpg">	</div>						
+					<div> WEBSITE BY <img src="img/htmlacademy.jpg"></div>										
+				</div>
+			</section>				
 			
-		<a href="map.html">
-			<img src="img/html_academy.svg" width="40" height="40">
-		</a>				
-	</footer>
-		
-	</div>		
-		
-  </body>
+		</div>	
+	</body>
+	
 </html>
