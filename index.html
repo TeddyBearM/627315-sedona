@@ -4,105 +4,111 @@
 		<meta charset="utf-8">
 		<title>HTML Academy: Седона</title>
 	</head>	
-	<body>	
-	
-		Site Sedona
+	<body>		
+
 		<div class="main-container">
-		
-			<section id="1" class="logo">
-				<div class="logo">CITY OF SEDONA</div>	
-			</section>
 			
-			<section id="2" class="header navigation">
-				<div class="header navigation">
-					<div>ИНФОРМАЦИЯ</div>
-					<div>ФОТО И ВИДЕО</div>
-					<div>КАРТА ШТАТА</div>
-					<div><a href="catalog.html">ГОСТИНИЦЫ</a></div>
+			<section class="header">
+				<div class="logo"><a href="index.html">CITY OF SEDONA</a></div>	
+				<nav class="navigation">				
+					<ul>
+						<li><a href="#">ИНФОРМАЦИЯ</a></li>
+						<li><a href="#">ФОТО И ВИДЕО</a></li>
+						<li><a href="#">КАРТА ШТАТА</a></li>					
+						<li><a href="catalog.html">ГОСТИНИЦЫ</a></li>
+					</ul>
 				</div>
 			</section>	
 			
-			<section id="3" class="banner">
+			<section class="banner">
 				<div class="banner">
 					<img src="img/sedona-hills.jpg">
 				</div>
 			</section>	
-			<section id="4" class="invite">
+			<section class="invite">
 				<div class="invite">
-					<div>СЕДОНА - НЕБОЛЬШОЙ ГОРОДОК В АРИЗОНЕ</div>
-					<div>РАССМОТРИМ 5 ПРИЧИН</div>
+					<p><b>СЕДОНА - НЕБОЛЬШОЙ ГОРОДОК В АРИЗОНЕ</b></p>
+					<p>РАССМОТРИМ 5 ПРИЧИН</p>
 				</div>
 			</section>	
-			<section id="5" class="reason">
+			
+			<section class="reason">
 				<div>				
-					<div id="row1" class="sedona-town">
+					<div class="place-view">
+						<p>НАСТОЯЩИЙ ГОРОДОК</p>						
 						<div>
-							НАСТОЯЩИЙ ГОРОДОК
-						</div>						
-						<div>
-							<img src="img/sedona-town.jpg">
+							<img src="img/sedona-city.jpg">
 						</div>
 					</div>
 					
-					<div id="row2" class="bonus">
+					<div class="bonus">
 
-						<div id="col1">
+						<div class="for-camper">
 							<img src="img/.jpg">
-							<div>ЖИЛЬЁ</div>						
-							<div>РЕКОМЕНДУЕМ ПОЖИТЬ</div>
+							<p><b>ЖИЛЬЁ</b></p>						
+							<p>РЕКОМЕНДУЕМ ПОЖИТЬ</p>
 						</div>
 
-						<div id="col2">
+						<div class="for-camper">
 							<img src="img/.jpg">
-							<div>ЕДА</div>
-							<div>ВСЕГДА ЗАКАЗЫВАЙТЕ</div>
+							<p><b>ЕДА</b></p>
+							<p>ВСЕГДА ЗАКАЗЫВАЙТЕ</p>
 						</div>
 
-						<div id="col3">
+						<div class="for-camper">
 							<img src="img/.jpg">
-							<div>СУВЕНИРЫ</div>
-							<div>НЕ ТОЛЬКО КИТАЙСКОГО</div>
+							<p><b>СУВЕНИРЫ</b></p>
+							<p>НЕ ТОЛЬКО КИТАЙСКОГО</p>
 						</div>		
 					</div>
 					
-					<div id="row3" class="diablo-road">
+					<div class="place-view">
 						<div>
-							<img src="img/.jpg">
+							<img src="img/diablo-road.jpg">
 						</div>
-						<div>ТАМ ЕСТЬ МОСТ ДЬЯВОЛА</div>						
-					</div>	<!-- <div id="row3"> -->
+						<p>ТАМ ЕСТЬ МОСТ ДЬЯВОЛА</p>						
+					</div>	
 					
-					<div id="row4" class="reason345">		
+					<div class="reason345">		
 
-						<div id="col1">
-							<div>НЕБОЛЬШАЯ ПЛОЩАДЬ</div>						
-							<div>ВСЕ ДОСТОПРИМЕЧАТЕЛЬНОСТИ</div>
+						<div class="trip-bonus">
+							<p><b>НЕБОЛЬШАЯ ПЛОЩАДЬ</b></p>						
+							<p>ВСЕ ДОСТОПРИМЕЧАТЕЛЬНОСТИ</p>
 						</div>	
 
-						<div id="col2">
-							<div>КРАСИВАЯ ДОРОГА</div>						
-							<div>ЕХАТЬ В СЕДОНУ ИЗ</div>
+						<div class="trip-bonus">
+							<p><b>КРАСИВАЯ ДОРОГА</b></p>						
+							<p>ЕХАТЬ В СЕДОНУ ИЗ</p>
 						</div>	
 
-						<div id="col3">
-							<div>МАЛО ТУРИСТОВ</div>						
-							<div>БОЛЬШИНСТВО ЕДЕТ В</div>
+						<div class="trip-bonus">
+							<p><b>МАЛО ТУРИСТОВ</b></p>						
+							<p>БОЛЬШИНСТВО ЕДЕТ В</p>
 						</div>	
+						
 					</div>	
 				</div>
 			</section>	
 			
-			<section id="6" class="form">
-				<img src="img/map.jpg">
+			<section class="form-container">
+				<p><b>  ЗАИНТЕРЕСОВАЛИСЬ? </b> <p>
+				<p>УКАЖИТЕ</p>
+				<p><b>ПОИСК ГОСТИНИЦЫ В СЕДОНЕ</b></p>
+				
+				<form class="search_form" >
+					<img src="img/map.jpg">
+				</form>	
 			</section>	
 			
-			<section id="7" class="footer">
+			<section class="footer">
 				<div>
-					<div><a href='#'> #VISITSEDONA </a></div>
-					<div>  <img src="img/twitter.jpg">	</div>					
-					<div>  <img src="img/facebook.jpg"> </div>					
-					<div>  <img src="img/youtube.jpg">	</div>						
-					<div> WEBSITE BY <img src="img/htmlacademy.jpg"></div>										
+					<div><a href='#'> #VISITSEDONA </a></div>					
+					<div>
+						<a class="social-btn" href="#">  <img src="img/twitter.jpg">	</a>
+						<a class="social-btn" href="#">  <img src="img/facebook.jpg">  </a>
+						<a class="social-btn" href="#">  <img src="img/youtube.jpg">	</a>						
+					</div>
+					<div> <b> WEBSITE BY <img src="img/htmlacademy.jpg"> </b> </div>										
 				</div>
 			</section>				
 			
