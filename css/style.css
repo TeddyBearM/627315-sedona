@@ -1,0 +1,31 @@
+.icon {
+	padding: 45px; 
+	image/svg+xml; 
+	width:15px; 
+	height:15px; 
+	background-repeat: no-repeat;
+}
+.star {	
+	image/svg+xml; 
+	width:18px; 
+	height:17px; 
+}
+.htmlAcademy {
+	image/svg+xml; 
+	width:125px; 
+	height:43px; 
+}
+.socialBtn {
+	image/svg+xml; 
+	width:46px; 
+	height:48px; 
+    background-color:#81b3d2;
+}
+.checkBox {
+	image/svg+xml; 
+	width:20px; 
+	height:20px; 
+    background-color:#81b3d2;
+}
+
+

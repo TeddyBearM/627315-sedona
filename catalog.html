@@ -4,14 +4,16 @@
 
 	<head>
 		<meta charset="utf-8">
-		<title>HTML Academy: Седона, список отелей</title>
-	</head>
+		<title>HTML Academy: Седона</title>
+		<link href="css/style.css" rel="stylesheet">		
+	</head>	
 	
 	<body>					
 		<div class="mainContainer">
 			<header>
 				<div class="logo"><a href="index.html">CITY OF SEDONA</a></div>	
-				<nav class="navigation">				
+				<nav class="navigation">
+				<img src="img/Logo.jpg">
 					<ul>
 						<li><a href="#">ИНФОРМАЦИЯ</a></li>
 						<li><a href="#">ФОТО И ВИДЕО</a></li>
@@ -21,7 +23,9 @@
 				</div>
 			</header>	
 			<section class="searchParams">
-				<div>  <img src="img/searchParams.jpg">	</div>	
+				<div>  <img src="img/filterBackground.jpg" height="150px">	</div>	
+				<img class="checkBox" src="img/checkboxOn.svg"  />  
+				<img class="checkBox" src="img/checkboxOff.svg" /> 
 			</section>				
 			<section class="searchResult">
 				<b>НАЙДЕНО: 3</b>
@@ -31,15 +35,15 @@
 					<li>ПО РЕЙТИНГУ</li>
 				</ul>
 				<ul>
-					<li><img src="img/arrowUp.jpg"></li>
-					<li><img src="img/arrowDown.jpg"></li>					
+					<li style="list-style-image:url(img/arrowDown.svg);">  </li>  
+					<li style="list-style-image:url(img/arrowUp.svg);"  >  </li> 
 				</ul>
 			</section>	
 			
 			<section class="foundHotels">			
 				<div class="hotel">			
 					<div class="hotelPhoto">
-						<img src="img/hotel1Photo.jpg">
+						<img src="img/hotel1.jpg">
 					</div>
 					<div class="hotelDescription">
 						<h3> <a href="#">AMARA RESORT AND SPA</a> </h3>						
@@ -47,15 +51,17 @@
 						<a href="#">ПОДРОБНЕЕ<a> 
 						<a href="#">ЗАБРОНИРОВАТЬ</a>
 					</div>
-					<div class="hotelRating">
-						<img src="img/stars.jpg" >
+					<div class="hotelRating">						
+						<div class="star" style="background-image: url(img/star.svg); width:70px;"> 
+						</div>
+						
 						<span>rating 8.9</span>
 					</div>								
 				</div>
 				
 				<div class="hotel">			
 					<div class="hotelPhoto">
-						<img src="img/hotel1Photo.jpg">
+						<img src="img/hotel2.jpg">
 					</div>
 					<div class="hotelDescription">
 						<h3> <a href="#">DESERT QUAIL INN</a> </h3>
@@ -64,14 +70,15 @@
 						<a href="#">ЗАБРОНИРОВАТЬ</a>
 					</div>
 					<div class="hotelRating">
-						<img src="img/stars.jpg" >
+						<div class="star" style="background-image: url(img/star.svg); width:55px;"> 
+						</div>
 						<span>rating 8.9</span>
 					</div>								
 				</div>
 				
 				<div class="hotel">			
 					<div class="hotelPhoto">
-						<img src="img/hotel1Photo.jpg">
+						<img src="img/hotel3.jpg">
 					</div>
 					<div class="hotelDescription">
 						<h3> <a href="#">VILLAS AT POCO DIABLO</a> </h3>																	
@@ -80,22 +87,27 @@
 						<a href="#">ЗАБРОНИРОВАТЬ</a>
 					</div>
 					<div class="hotelRating">
-						<img src="img/stars.jpg" >
+						<div class="star" style="background-image: url(img/star.svg); width:35px;"> 
+						</div>
 						<span>rating 8.9</span>
 					</div>								
 				</div>
 	
 			</section>	
 
-			<footer>
+		<footer>
 				<div>
 					<div><a href='#'> #VISITSEDONA </a></div>					
 					<div>
-						<a class="socialBtn" href="#">  <img src="img/twitter.jpg">	</a>
-						<a class="socialBtn" href="#">  <img src="img/facebook.jpg">  </a>
-						<a class="socialBtn" href="#">  <img src="img/youtube.jpg">	</a>						
+						<a href="https://www.twitter.com/">  <img class="socialBtn" src="img/twitter.svg" alt="Twitter" />  </a>
+						<a href="https://www.facebook.com/">  <img class="socialBtn" src="img/fbIcon.svg" alt="FaceBook" />  </a>						
+						<a href="https://www.youtube.com/">  <img class="socialBtn" src="img/youtube.svg" alt="Youtube" />  </a>					
 					</div>
-					<div> <b> WEBSITE BY <img src="img/htmlacademy.jpg"> </b> </div>										
+					<div>
+						<b> WEBSITE BY <b>
+						<div class="icon" style="background-image: url(img/logoHtmlAcademy.svg);"> 
+						</div>
+					</div>
 				</div>
 			</footer>				
 			

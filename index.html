@@ -3,6 +3,7 @@
 	<head>
 		<meta charset="utf-8">
 		<title>HTML Academy: Седона</title>
+		<link href="css/style.css" rel="stylesheet">		
 	</head>	
 	<body>		
 
@@ -10,7 +11,8 @@
 			
 			<header>
 				<div class="logo"><a href="index.html">CITY OF SEDONA</a></div>	
-				<nav class="navigation">				
+				<nav class="navigation">
+				<img src="img/Logo.jpg">
 					<ul>
 						<li><a href="#">ИНФОРМАЦИЯ</a></li>
 						<li><a href="#">ФОТО И ВИДЕО</a></li>
@@ -20,9 +22,9 @@
 				</div>
 			</header>
 			
-			<section class="banner">
+			<section>
 				<div class="banner">
-					<img src="img/sedonaHills.jpg">
+					<img src="img/Sedona.jpg" height="150px">
 				</div>
 			</section>	
 			<section class="invite">
@@ -37,25 +39,28 @@
 					<div class="placeView">
 						<p>НАСТОЯЩИЙ ГОРОДОК</p>						
 						<div>
-							<img src="img/sedonaCity.jpg">
+							<img src="img/SedonaCity.jpg">
 						</div>
 					</div>
 					
 					<div class="bonus">
 						<div class="forCamper">
-							<img src="img/apartment.jpg">
+							<div class="icon" style="background-image: url(img/iconApartment.svg);">
+							</div>							
 							<p><b>ЖИЛЬЁ</b></p>						
 							<p>РЕКОМЕНДУЕМ ПОЖИТЬ</p>
 						</div>
 
 						<div class="forCamper">
-							<img src="img/food.jpg">
+							<div class="icon" style="background-image: url(img/iconFood.svg);">
+							</div>		
 							<p><b>ЕДА</b></p>
 							<p>ВСЕГДА ЗАКАЗЫВАЙТЕ</p>
 						</div>
 
 						<div class="forCamper">
-							<img src="img/souvenirs.jpg">
+							<div class="icon" style="background-image: url(img/iconSouvenirs.svg);">
+							</div>	
 							<p><b>СУВЕНИРЫ</b></p>
 							<p>НЕ ТОЛЬКО КИТАЙСКОГО</p>
 						</div>		
@@ -63,7 +68,7 @@
 					
 					<div class="placeView">
 						<div>
-							<img src="img/diabloRoad.jpg">
+							<img src="img/DiabloRoad.jpg">
 						</div>
 						<p>ТАМ ЕСТЬ МОСТ ДЬЯВОЛА</p>						
 					</div>	
@@ -93,20 +98,25 @@
 				<p><b>  ЗАИНТЕРЕСОВАЛИСЬ? </b> <p>
 				<p>УКАЖИТЕ ПРЕДПОАЛГАЕМЫЕ ДАТЫ</p>
 				<p><b>ПОИСК ГОСТИНИЦЫ В СЕДОНЕ</b></p>
-				<img src="img/map.jpg">				
+				<img src="img/Map.jpg" height="150px">				
 			</section>	
 			
 			<footer>
 				<div>
 					<div><a href='#'> #VISITSEDONA </a></div>					
 					<div>
-						<a class="socialBtn" href="#">  <img src="img/twitter.jpg">	</a>
-						<a class="socialBtn" href="#">  <img src="img/facebook.jpg">  </a>
-						<a class="socialBtn" href="#">  <img src="img/youtube.jpg">	</a>						
+						<a href="https://www.twitter.com/">  <img class="socialBtn" src="img/twitter.svg" alt="Twitter" />  </a>
+						<a href="https://www.facebook.com/"> <img class="socialBtn" src="img/fbIcon.svg" alt="FaceBook" />  </a>						
+						<a href="https://www.youtube.com/">  <img class="socialBtn" src="img/youtube.svg" alt="Youtube" />  </a>
+					<div>
+						<b> WEBSITE BY <b>
+						<div class="htmlAcademy" style="background-image: url(img/logoHtmlAcademy.svg);"> 
+						</div>
 					</div>
-					<div> <b> WEBSITE BY <img src="img/htmlacademy.jpg"> </b> </div>										
 				</div>
 			</footer>				
+			
+								
 			
 		</div>	
 	</body>	
