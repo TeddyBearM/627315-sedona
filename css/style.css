@@ -15,7 +15,6 @@
 	}	
 	*/
 
-
 	.icon {
 		width: 				74px; 
 		height: 			74px; 
@@ -42,7 +41,15 @@
 	}
 	.stars2 {
 		width:				35px;
-	}
+	}	
+	.calendar {
+		width: 				26px;
+		height: 			26px;		
+		background:			url('../img/calendar.svg');	
+	}	
+	.quantity {
+		width:				22px;
+	}	
 	.socialBtn {
 		display:			inline-block;
 		width: 				45px; 
