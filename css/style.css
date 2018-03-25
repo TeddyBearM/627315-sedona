@@ -15,6 +15,75 @@
 	}	
 	*/
 
+	body {
+		margin: 0;
+		padding: 0;
+		font-family: "PT Sans", Arial, sans-serif;
+		font-size: 14px;
+//		line-height: 26px;
+		text-transform: uppercase;
+//		font-weight: bold;	
+//		background-color: #000000;
+//		background-image: url("img/bg.jpg");
+//		background-position: top center;
+//		background-repeat: no-repeat;
+	}
+
+	
+	.navigation	{		
+		text-transform: uppercase;		
+	}	
+
+	.invite {
+		font-size: 21px;
+		line-height: 26px;	
+	}
+	.search {
+		font-size: 21px;
+		line-height: 26px;		
+		background-color: #766357;	
+		color : white;
+	}
+	.fiveReasons {
+		font-size: 14px;
+		color: rgb( 51, 51, 51 );		
+		font-weight: normal;				
+	}
+	.fontSize21 {
+		font-size: 21px;	
+	}
+	.fontColorWhite {
+		color: #ffffff;
+	}
+	.placeView {
+		background-color: #bcd6e7;
+	}	
+	.Myriad21White {
+		font-family: "Myriad Pro";	
+		font-size: 21px;
+		font-weight: normal;				
+		color: rgb( 255, 255, 255 );
+	}
+	.Myriad14White {
+		font-family: "Myriad Pro";	
+		font-size: 14px;
+		font-weight: normal;				
+		color: rgb( 255, 255, 255 );
+	}	
+	.Myriad21BlackBold{
+		font-family: "Myriad Pro";	
+		font-size: 21px;
+		font-weight: Bold;				
+	}	
+	.Myriad14Black{
+		font-family: "Myriad Pro";	
+		font-size: 14px;
+		font-weight: normal;				
+	}	
+	.Myriad30Black {
+		font-family: "Myriad Pro";	
+		font-size: 30px;		
+	}		
 	.icon {
 		width: 				74px; 
 		height: 			74px; 
@@ -85,3 +154,71 @@
 		height: 			43px; 
 		background-image: 	url("../img/logoHtmlAcademy.svg");
 	}
+	form {
+		font-weight: bold;	
+	}
+	.searchButton {
+		font-family: "Myriad Pro";	
+		background-color: #81b3d2;
+		font-size: 21px;
+		line-height: 26px;
+		color: white;
+		width: 458px;
+		height: 58px;
+}
+    .visit {
+		font-family: "PT Sans", Arial, sans-serif;
+		font-size: 21px;
+		line-height: 26px;
+		color: black;
+		font-weight: bold;
+	}
+	.sort {
+		font-family: "PT Sans", Arial, sans-serif;
+		font-size: 12px;
+		line-height: 18px;
+		color: black;
+	}
+	.byPrice {
+		color: #81b3d2;
+	}
+	.opacity_ {
+		color: rgba( 0, 0, 0, 0.302 );	
+	}
+
+	.bgColorBlue {
+		background-color: #81b3d2;
+	}	
+	.bgColorBrown {
+		background-color: #766357;
+	}	
+	.bgColorLightGray {
+		background-color: #f2f2f2;
+	}	
+	input {
+		margin: 0;
+		padding: 0;
+		font-family: "PT Sans", Arial, sans-serif;
+		font-size: 14px;
+		line-height: 32px;
+		text-transform: uppercase;
+		font-weight: bold;			
+		background-color: #f2f2f2;		
+		width: 346px;	
+		border: none;	
+	}	
+	.quantity {
+		width:			32px;
+		text-align: center; 		
+	}	
+	.plusMinus	{
+		font-family: "Myriad Pro";	
+		font-size: 18px;
+		font-weight: bold;		
+		width:  32px;
+		height: 32px;
+		background-color: #f2f2f2;
+		color: #a9a9a9;		
+	}
+
+
