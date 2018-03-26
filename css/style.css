@@ -20,7 +20,7 @@
 		padding: 0;
 		font-family: "PT Sans", Arial, sans-serif;
 		font-size: 14px;
-//		line-height: 26px;
+		line-height: 26px;
 		text-transform: uppercase;
 //		font-weight: bold;	
 //		background-color: #000000;
@@ -28,12 +28,25 @@
 //		background-position: top center;
 //		background-repeat: no-repeat;
 	}
-
+	form {
+		font-weight: bold;	
+	}
+	input {
+		margin: 0;
+		padding: 0;
+//		font-family: "PT Sans", Arial, sans-serif;
+//		font-size: 14px;
+		line-height: 32px;
+		text-transform: uppercase;
+//		font-weight: bold;			
+		background-color: #f2f2f2;		
+		width: 346px;	
+		border: none;	
+	}
 	
 	.navigation	{		
 		text-transform: uppercase;		
 	}	
-
 	.invite {
 		font-size: 21px;
 		line-height: 26px;	
@@ -45,45 +58,25 @@
 		color : white;
 	}
 	.fiveReasons {
-		font-size: 14px;
+//		font-size: 14px;
 		color: rgb( 51, 51, 51 );		
 		font-weight: normal;				
 	}
+	.reason345 {
+		background-color: #eeeeee;	
+	}	
 	.fontSize21 {
 		font-size: 21px;	
 	}
+	.fontSize30 {
+		font-size: 30px;	
+	}	
 	.fontColorWhite {
 		color: #ffffff;
-	}
+	}	
 	.placeView {
-		background-color: #bcd6e7;
+		background-color: #81b3d2;		
 	}	
-	.Myriad21White {
-		font-family: "Myriad Pro";	
-		font-size: 21px;
-		font-weight: normal;				
-		color: rgb( 255, 255, 255 );
-	}
-	.Myriad14White {
-		font-family: "Myriad Pro";	
-		font-size: 14px;
-		font-weight: normal;				
-		color: rgb( 255, 255, 255 );
-	}	
-	.Myriad21BlackBold{
-		font-family: "Myriad Pro";	
-		font-size: 21px;
-		font-weight: Bold;				
-	}	
-	.Myriad14Black{
-		font-family: "Myriad Pro";	
-		font-size: 14px;
-		font-weight: normal;				
-	}	
-	.Myriad30Black {
-		font-family: "Myriad Pro";	
-		font-size: 30px;		
-	}		
 	.icon {
 		width: 				74px; 
 		height: 			74px; 
@@ -154,9 +147,6 @@
 		height: 			43px; 
 		background-image: 	url("../img/logoHtmlAcademy.svg");
 	}
-	form {
-		font-weight: bold;	
-	}
 	.searchButton {
 		font-family: "Myriad Pro";	
 		background-color: #81b3d2;
@@ -195,18 +185,7 @@
 	.bgColorLightGray {
 		background-color: #f2f2f2;
 	}	
-	input {
-		margin: 0;
-		padding: 0;
-		font-family: "PT Sans", Arial, sans-serif;
-		font-size: 14px;
-		line-height: 32px;
-		text-transform: uppercase;
-		font-weight: bold;			
-		background-color: #f2f2f2;		
-		width: 346px;	
-		border: none;	
-	}	
+	
 	.quantity {
 		width:			32px;
 		text-align: center; 		
@@ -220,5 +199,3 @@
 		background-color: #f2f2f2;
 		color: #a9a9a9;		
 	}
-
-
