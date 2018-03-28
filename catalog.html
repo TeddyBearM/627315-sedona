@@ -5,7 +5,7 @@
 	<head>
 		<meta charset="utf-8">
 		<title>HTML Academy: Седона</title>
-		<link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">		
+		<link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700&amp;subset=cyrillic" rel="stylesheet">				
 		<link href="css/style.css" rel="stylesheet">		
 	</head>	
 	
@@ -22,7 +22,7 @@
 						<li><a href="#">ИНФОРМАЦИЯ</a></li>
 						<li><a href="#">ФОТО И ВИДЕО</a></li>
 						<li><a href="#">КАРТА ШТАТА</a></li>					
-						<li><a href="catalog.html">ГОСТИНИЦЫ</a></li>
+						<li ><a class="aActive" href="catalog.html">ГОСТИНИЦЫ</a></li>
 					</ul>
 				</div>
 			</header>	
@@ -32,13 +32,13 @@
 			
 			<section class="searchResult">
 				<b class="visit">НАЙДЕНО: 3</b>
-				<ul class="sort">СОРТИРОВКА>
-					<li class="byPrice">ПО ЦЕНЕ</li>					
-					<li class="opacity_">ПО ТИПУ</li>
-					<li class="opacity_">ПО РЕЙТИНГУ</li>
+				<ul class="sort">СОРТИРОВКА
+					<li class="sortType sortTypeActive">ПО ЦЕНЕ</li>					
+					<li class="sortType">ПО ТИПУ</li>
+					<li class="sortType">ПО РЕЙТИНГУ</li>
 				</ul>
 				<ul>
-					<li class="arrowDown"> </li>  
+					<li class="arrowDown arrowDownActive"> </li>  
 					<li class="arrowUp">   </li>  					
 				</ul>
 			</section>	
@@ -49,14 +49,14 @@
 						<img src="img/hotel1.jpg">
 					</div>
 					<div >
-						<a class="visit" href="#">AMARA RESORT AND SPA</a>
+						<a class="hotelName" href="#">AMARA RESORT AND SPA</a>
 						<p >ГОСТИНИЦА ОТ 4000Р</p>
-						<a class="fontColorWhite bgColorBlue" href="#">ПОДРОБНЕЕ<a> 
-						<a class="fontColorWhite bgColorBrown" href="#">ЗАБРОНИРОВАТЬ</a>
+						<a class="btnHotelMoreInfo"  href="#">ПОДРОБНЕЕ<a> 
+						<a class="btnHotelBookIt" href="#">ЗАБРОНИРОВАТЬ</a>
 					</div>
 					<div class="hotelRating">						
 						<div class="star stars4"> 	</div>						
-						<span class="bgColorLightGray">rating 8.9</span>
+						<span class="rating">rating 8.9</span>
 					</div>								
 				</div>
 				
@@ -65,14 +65,14 @@
 						<img src="img/hotel2.jpg">
 					</div>
 					<div>
-						<a class="visit" href="#">DESERT QUAIL INN</a>
+						<a class="hotelName" href="#">DESERT QUAIL INN</a>
 						<p>МОТЕЛЬ ОТ 3000Р</p>
-						<a class="fontColorWhite bgColorBlue"  href="#">ПОДРОБНЕЕ<a> 
-						<a class="fontColorWhite bgColorBrown" href="#">ЗАБРОНИРОВАТЬ</a>
+						<a class="btnHotelMoreInfo"  href="#">ПОДРОБНЕЕ<a> 
+						<a class="btnHotelBookIt" href="#">ЗАБРОНИРОВАТЬ</a>
 					</div>
 					<div class="hotelRating">
 						<div class="star stars3"> 	</div>						
-						<span class="bgColorLightGray">rating 8.9</span>
+						<span class="rating">rating 8.9</span>
 					</div>								
 				</div>
 				
@@ -81,14 +81,14 @@
 						<img src="img/hotel3.jpg">
 					</div>
 					<div >
-						<a class="visit" href="#">VILLAS AT POCO DIABLO</a>																
+						<a class="hotelName" href="#">VILLAS AT POCO DIABLO</a>																
 						<p>АПАРТАМЕНТЫ ОТ 2000Р</p>
-						<a class="fontColorWhite bgColorBlue" href="#">ПОДРОБНЕЕ<a> 
-						<a class="fontColorWhite bgColorBrown" href="#">ЗАБРОНИРОВАТЬ</a>
+						<a class="btnHotelMoreInfo" href="#">ПОДРОБНЕЕ<a> 
+						<a class="btnHotelBookIt" href="#">ЗАБРОНИРОВАТЬ</a>
 					</div>
 					<div class="hotelRating">
 						<div class="star stars2"> 	</div>
-						<span class="bgColorLightGray">rating 8.9</span>
+						<span class="rating">rating 8.9</span>
 					</div>								
 				</div>
 	

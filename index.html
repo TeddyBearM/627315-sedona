@@ -3,7 +3,7 @@
 	<head>
 		<meta charset="utf-8">
 		<title>HTML Academy: Седона</title>
-		<link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700&amp;subset=cyrillic" rel="stylesheet">		
 		<link href="css/style.css" rel="stylesheet">		
 	</head>	
 	<body>		
@@ -21,7 +21,7 @@
 						<li><a href="#">ИНФОРМАЦИЯ</a></li>
 						<li><a href="#">ФОТО И ВИДЕО</a></li>
 						<li><a href="#">КАРТА ШТАТА</a></li>					
-						<li><a href="catalog.html">ГОСТИНИЦЫ.</a></li>
+						<li><a href="catalog.html">ГОСТИНИЦЫ</a></li>
 					</ul>
 				</div>
 			</header>
@@ -43,8 +43,8 @@
 			<section class="reason">
 				<div>				
 					<div class="placeView">
-						<p class="fontSize21 fontColorWhite">НАСТОЯЩИЙ ГОРОДОК</p>
-						<p class="fontColorWhite" >- № 1 - 	СЕДОНА - НЕ АТТРАКЦИОН ДЛЯ ТУРИСТОВ, ТАМ ТЕЧЕТ СВОЯ ЖИЗНЬ</p>
+						<p class="reasonWithPictName ">НАСТОЯЩИЙ ГОРОДОК</p>
+						<p  >- № 1 - 	СЕДОНА - НЕ АТТРАКЦИОН ДЛЯ ТУРИСТОВ, ТАМ ТЕЧЕТ СВОЯ ЖИЗНЬ</p>
 						<div>
 							<img src="img/sedonaCity.jpg">
 						</div>
@@ -53,20 +53,20 @@
 					<div class="bonus">
 						<div class="forCamper">
 							<div class="icon iconApartment">	</div>							
-							<p class="fontSize21" > <b>ЖИЛЬЁ</b></p>						
+							<p class="bonusName" > <b>ЖИЛЬЁ</b></p>						
 							<p >РЕКОМЕНДУЕМ ПОЖИТЬ В НАСТОЯЩЕМ МОТЕЛЕ, ВСЕ КАК В КИНО!</p>
 							
 						</div>
 
 						<div class="forCamper">
 							<div class="icon iconFood" >		</div>		
-							<p class="fontSize21"><b>ЕДА</b></p>
+							<p class="bonusName"><b>ЕДА</b></p>
 							<p >ВСЕГДА ЗАКАЗЫВАЙТЕ ФИРМЕННЫЙ БУРГЕР, ВЫ НЕ РАЗОЧАРУЕТЕСЬ!</p>
 						</div>
 
 						<div class="forCamper">
 							<div class="icon iconSouvenirs" >	</div>	
-							<p class="fontSize21"><b>СУВЕНИРЫ</b></p>
+							<p class="bonusName"><b>СУВЕНИРЫ</b></p>
 							<p >НЕ ТОЛЬКО КИТАЙСКОГО, НО И МЕСТНОГО ПРОИЗВОДСТВА!</p>
 						</div>		
 					</div>
@@ -75,24 +75,24 @@
 						<div>
 							<img src="img/diabloRoad.jpg">
 						</div>
-						<p class="fontSize21 fontColorWhite">ТАМ ЕСТЬ МОСТ ДЬЯВОЛА</p>
-						<p class="fontColorWhite" >- №2 - ДА, ПО НЕМУ МОЖНО ПРОЙТИ! ЕСЛИ КОНЕЧНО ВЫ ОСМЕЛИТЕСЬ</p>
+						<p class="reasonWithPictName ">ТАМ ЕСТЬ МОСТ ДЬЯВОЛА</p>
+						<p  >- №2 - ДА, ПО НЕМУ МОЖНО ПРОЙТИ! ЕСЛИ КОНЕЧНО ВЫ ОСМЕЛИТЕСЬ</p>
 					</div>	
 					
 					<div class="reason345">		
 
 						<div class="tripBonus">
-							<p class="fontSize21"><b>НЕБОЛЬШАЯ ПЛОЩАДЬ</b></p>						
+							<p class="reasonName"><b>НЕБОЛЬШАЯ ПЛОЩАДЬ</b></p>						
 							<p > - №3 - ВСЕ ДОСТОПРИМЕЧАТЕЛЬНОСТИ НАХОДЯТСЯ ОЧЕНЬ БЛИЗКО</p>
 						</div>	
 
 						<div class="tripBonus">
-							<p class="fontSize21"><b>КРАСИВАЯ ДОРОГА</b></p>						
+							<p class="reasonName"><b>КРАСИВАЯ ДОРОГА</b></p>						
 							<p > - №4 - ЕХАТЬ В СЕДОНУ ИЗ ЛАС-ВЕГАСА СОВСЕМ НЕ СКУЧНО</p>
 						</div>	
 
 						<div class="tripBonus">
-							<p class="fontSize21"><b>МАЛО ТУРИСТОВ</b></p>				
+							<p class="reasonName"><b>МАЛО ТУРИСТОВ</b></p>				
 							<p > - №5 - БОЛЬШИНСТВО ЕДЕТ В ГРАНД-КАНЬОН И ТОЛПИТСЯ ТАМ</p>											
 						</div>	
 						
@@ -101,9 +101,9 @@
 			</section>	
 			
 			<section class="formContainer">
-				<p  class="fontSize30"><b>  ЗАИНТЕРЕСОВАЛИСЬ? </b> </p>
+				<p  class="quInteresting"><b>  ЗАИНТЕРЕСОВАЛИСЬ? </b> </p>
 				<p >УКАЖИТЕ ПРЕДПОЛАГАЕМЫЕ ДАТЫ ПОЕЗДКИ, И МЫ ПОКАЖЕМ ВАМ ЛУЧШИЕ ПРЕДЛОЖЕНИЯ ГОСТИНИЦ В СЕДОНЕ.</p>			
-				<p class="search"><b>ПОИСК ГОСТИНИЦЫ В СЕДОНЕ</b></p>
+				<a class="search" href='#' ><b>ПОИСК ГОСТИНИЦЫ В СЕДОНЕ</b></a>
 				
 				
 				
@@ -111,29 +111,29 @@
 			</section>	
 			
 			<form method="post" action="#">
-				<p>
+				<div class="dateInput">
 					<label for="dateIn">ДАТА ЗАЕЗДА</label>
-					<input id="dateIn" type="text" name="Calendar" value="24 апреля 2017" />
+					<input class="date" type="text"  value="24 апреля 2017" />
 					<input type="button" class="calendar" />	
-				</p>
-				<p>
+				</div>
+				<div class="dateInput">
 					<label for="dataOut">ДАТА ВЫЕЗДА</label>
-					<input id="dateOut" type="text" name="Calendar" value="4 июля 2017" /> 
+					<input class="date" type="text" value="4 июля 2017" /> 
 					<input type="button" class="calendar" />		
-				</p>
+				</div>
 				
-				<p>
+				<div>
 					<label for="howAdult">ВЗРОСЛЫЕ</label>
-					<input class="plusMinus" type="button" value="-" />
+					<input class="minus" type="button"  />
 					<input class="quantity" id="howAdult" type="text" placeholder="2"/>
-					<input class="plusMinus" type="button" value="+" />
-				</p>
-				<p>
+					<input class="plus" type="button"  />
+				</div>
+				<div>
 					<label for="howChildren">ДЕТИ</label>
-					<input class="plusMinus" type="button" value="-" />
+					<input class="minus" type="button" />
 					<input class="quantity" id="howChildren" type="text" placeholder="0"/>
-					<input class="plusMinus" type="button" value="+" />
-				</p>
+					<input class="plus" type="button"  />
+				</div>
 				<button class="searchButton" type="submit">НАЙТИ</button>
 			</form>			
 			
