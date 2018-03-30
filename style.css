@@ -1,25 +1,15 @@
-.searchParams {
-    background-image:	url("../img/filterBackground.jpg");	
-    height:				350px;	
-}
-/*        
+/*	.searchParams {
+                background-image:	url("../img/filterBackground.jpg");	
+                height:				150px;	
+        }
+        
         .checkBox {	
                 width:				20px; 
                 height: 			20px; 
                 background-color:	#81b3d2;
         }	
 */
-.footer { 
-	display: 				flex;	
-	flex-direction: 		row; 
-	background-color: 		white; 
-	height: 				100px; 
-	align-items: 			center; 
-	justify-content: 		space-around; 
-}
-.footerRow {
-	display: 				contents;
-}	
+
 body {
     margin:					0;
     margin-left:			auto;
@@ -31,125 +21,132 @@ body {
     text-transform:			uppercase;
     background-color:		#f2f2f2;	
     width: 					1280px;
+
+    //		font-weight:			bold;	
+    //		background-image:		url("img/bg.jpg");
+    //		background-position:	top center;
+    //		background-repeat:		no-repeat;
 }
 
-.topBanner {
+.top {
     background-image:		url("../img/sedona.jpg"); 
     background-position:	top center;		
     background-size:		contain;				
     background-repeat:		no-repeat;		
     width: 					1200px;
     height:  				800px;
-    background-position-y:	-25px;	
+    background-position-y:	-25px;
 }
 
 .mainContainer	{
-    display:				flex;
-    flex-direction:			column;
-    width:					1200px;
-    margin-left:			auto;
-    margin-right:			auto;
-    background-color:		white;	
+    display:			flex;
+    flex-direction:		column;
+    width:				1200px;
+    margin-left:		auto;
+    margin-right:		auto;
+    background-color:	white;	
 }
 
 .navigation	{		
-    display:				flex;			
-    flex-direction:			row;	
-    font-weight:			bold;	
-    background-color:		white;	
+    font-weight:		bold;
+    display:			flex;			
+    flex-direction:		row;	
+    background-color:	white;	
 }	
 
 .navigation	ul {		
-    display:				flex;			
-    flex-direction:			row;		
-    justify-content: 		space-around;		
-    padding: 				0;
-    line-height:			30px;	
-    width: 					100%;	
+    line-height:		30px;
+    display:			flex;			
+    flex-direction:		row;		
+    width: 				100%;
+    justify-content: 	space-around;		
+    padding: 			0;
 }	
 
+
 .flexholder {
-    display: 				flex;
+    display: flex;
 }
 .flexholder.row{
-    flex-direction: 		row;
+    flex-direction: row;
 }
 .flexholder.column {
-    flex-direction: 		column;
+    flex-direction: column;
 }    
 .flexholder .flex_text {
-    flex-grow:				1;
-    flex-basis:				30%;
-    text-align: 			center;
+    flex-grow:1;
+    flex-basis:30%;
+    text-align: center;
 
 }
-.flexholder .flex_img {
-	flex-grow:				3
+.flexholder .flex_img {flex-grow:3}
+
+.flexholder .flex_img img{
+    width: 100%;
+    max-height: 300px;
 }
-.flexholder .flex_img img {
-    width: 					100%;
-    max-height: 			300px;
-}
-.reason {
-	position:				relative
-}
+.reason {position:relative}
 .reason > .flexholder {
-    height:					300px;
+    height:300px;
 }
-.reason_items >.flexholder {
-    height:					350px;
+.reason_items >.flexholder{
+    height:350px;
 }
-.reason_items.small >.flexholder {
-    height:					300px;
+.reason_items.small >.flexholder{
+    height:300px;
 }            
 
 .flexholder.forCamper,  .flexholder.request{
-    justify-content: 		center;
-    align-items: 			center;
+    justify-content: center;
+    align-items: center;
 }
 .reason_items .thin {
-    width:					80%;
+    width:80%;
 }
 .reason_items .uthin {
-    width:					40%;
+    width:40%;
 }
 .grey {
-    background:				#eee;
+    background:#eee;
 }
+
 .map {
-    position:				relative;
-    height: 				575px;
-    overflow-y: 			hidden;
+    position:relative;
+    height: 575px;
+    overflow-y: hidden;
 }
 .map img{
-    width:					100%;
+    width:100%;
 }
 footer {
-    width: 					1200px;
-    margin:					0 auto;
+    width: 1200px;
+    margin: 0 auto;
 }
-.footer-links {
-    position: 				absolute;
-    bottom: 				0;
-    background: 			#ffffffcc;
-    width: 					100%;
+.footer-links{
+    position: absolute;
+    bottom: 0;
+    background: #ffffffcc;
+    width: 100%;
 }
 .footer-links .flexholder {
-    justify-content: 		space-around;
-    align-items: 			center;
-    height: 				100px;
+    justify-content: space-around;
+    align-items: center;
+    height: 100px;
 }
 #order {
-    position: 				absolute;
-    bottom: 				-365px;
-    left: 					300px;
-    width: 					530px;
-    opacity:				0;
-    z-index: 				1;
-    background: 			white;
-    padding: 				35px;
+    position: absolute;
+    bottom: -365px;
+    left: 300px;
+    width: 530px;
+    opacity:0;
+    z-index: 1;
+    background: white;
+    padding: 35px;
 }        
 
+.liLogo	{		
+    //		align-self:	flex-start;		
+}	
 .logo {
     width: 				138px;		
 }
@@ -157,20 +154,31 @@ footer {
     position: 			absolute;
     top: 				0px;		
 }
+/*	.banner {
+                height:				500px;		
+                overflow-y:			hidden;	
+        }
+        .banner img {
+                width: 				1200px;	
+        }	
+*/
 .bannerMask {
     height:				57px;		
     background-image: 	url(../img/zzz.png);		
 }
+
+
 .text {
     text-align:			center;		
 }
+
 .textSedona	{
     height: 			450px;
 }
 .textInvite {
     height:				220px;		
     background-color:	white;				
-    padding-top: 		40px;
+    padding-top: 40px;
 }
 form {
     font-weight:		bold;
@@ -286,10 +294,13 @@ li:active {
     background-color:	#81b3d2;	
     color: 				#ffffff;		
     display:			flex;
-    flex-direction: 	column;
-    justify-content: 	center;
-    align-items: 		center;		
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;		
+
 }
+
 
 .icon {
     width: 				74px; 
@@ -562,55 +573,51 @@ li:active {
 }
 
 .dateInput .flexholder.row {
-    justify-content: 	space-between;
+    justify-content: space-between;
 
 }
-.counters {
-	margin-right:		20px
-}
+.counters {margin-right:20px}
 .searchButton {
-    width:				100%;
-    margin-top: 		35px;
+    width:100%;
+    margin-top: 35px;
 }
 
 .searchResult > .flexholder {
-    justify-content: 	space-around;
-    height: 			100px;
-    border-bottom: 		1px solid #dede;
-    align-items: 		center;    
+    justify-content: space-around;
+    height: 100px;
+    border-bottom: 1px solid #dede;
+    align-items: center;    
 }
 
 .searchResult .links {
-	flex-basis:			35%;
+flex-basis:35%;
 }
 .searchResult .controls {
-	flex-basis:			25%;
+flex-basis:40%;
 }
 .searchResult .controls .flexholder{
-	justify-content: 	flex-end;
+justify-content: flex-end;
 }
 .searchResult .controls .flexholder li{
-	flex-basis:			10%
+flex-basis:10%
 }
 .searchResult .links .sort{
-	justify-content: 	space-between;
+justify-content: space-between;
 }
 
 .hotel {
-    padding: 			30px 40px;
-    border-bottom: 		1px solid #e4e4e4;
+        padding: 30px 40px;
+    border-bottom: 1px solid #e4e4e4;
 }
 
 .hotel .hotelPhoto{
-    flex-basis: 		20%;
+        flex-basis: 20%;
 }
 .hotel .hotelDescription{
-    flex-basis: 		60%;
+        flex-basis: 60%;
 }
 .hotel .hotelRating{
-    flex-basis: 		20%;
+        flex-basis: 20%;
 }
 
-.hotelRating {
-	justify-content:	space-between;
-}
+.hotelRating {justify-content: space-between;}
