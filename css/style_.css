@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .searchParams {
     background-image:	url("../img/filterBackground.jpg");	
     height:				350px;	
@@ -614,3 +615,396 @@ li:active {
 .hotelRating {
 	justify-content:	space-between;
 }
+=======
+/*	.searchParams {
+		background-image:	url("../img/filterBackground.jpg");	
+		height:				150px;	
+	}
+	
+	.checkBox {	
+		width:				20px; 
+		height: 			20px; 
+		background-color:	#81b3d2;
+	}	
+	*/
+
+	body {
+		margin:					0;
+		padding:				0;
+		font-family:			'PT Sans', sans-serif;		
+		font-size:				14px;
+		line-height:			26px;
+		text-transform:			uppercase;
+//		font-weight:			bold;	
+//		background-color:		#000000;
+//		background-image:		url("img/bg.jpg");
+//		background-position:	top center;
+//		background-repeat:		no-repeat;
+	}
+	form {
+		font-weight:		bold;
+	}
+	label {
+		display:			inline-block; 		
+		width:				100px;		
+	}
+	input {
+		display:			inline-block; 	
+		margin-left:		0;
+		padding-left:		15px;
+//		line-height:		32px;
+		height:				34px;		
+		text-transform:		uppercase;		
+		background-color:	#f2f2f2;		
+		width:				320px;	
+		border:				none;	
+		font-family:		'PT Sans', sans-serif;		
+		font-size:			14px;		
+		font-weight:		bold;	
+		outline-color:		#e5e5e5;
+	}		
+	.date {
+		background-color:	#f2f2f2;					
+	}
+	.date:hover {
+		background-color:	#ebebeb;	
+	}
+	.date:active {
+		background-color:	#ffffff;		
+	}	
+	a {
+		text-decoration:	none;
+		color:				black;
+	}
+	a:hover {		
+		color: 				#81b3d2;
+	}
+	a:active {
+		color: 				#b2b2b2;		
+	}
+	.aActive {
+		color:				#766357;		
+	}	
+	li {
+		list-style-type:	none;
+	}
+	li:hover {
+		color: 				#81b3d2;
+	}
+	li:active {
+		color:				#777777;
+	}	
+	.bonusName {
+		font-size:			21px;		
+	}
+	.dateInput {
+		margin:				20px;
+	}
+	.navigation	{		
+		font-weight:		bold;
+	}	
+	.invite {
+		font-size:			21px;
+		line-height:		26px;	
+	}
+	.search {
+		font-size:			21px;
+		line-height:		26px;		
+		background-color:	#766357;	
+		color:				white;
+	}
+	.search:hover {
+		background-color:	#604e43;	
+		color:				white;				
+	}
+	.search:active {
+		background-color:	#503e33;	
+		color:				#766860;				
+	}		
+	.fiveReasons {
+		color:				rgb( 51, 51, 51 );		
+		font-weight:		normal;				
+	}
+	.reasonName {
+		font-size:			21px;
+	}	
+	.reasonWithPictName {
+		font-size: 			21px;
+		font-weight:		bold;
+	}	
+	.reason345 {
+		background-color:	#eeeeee;	
+	}	
+	.placeView {
+		background-color:	#81b3d2;	
+		color: 				#ffffff;
+	}	
+	.icon {
+		width: 				74px; 
+		height: 			74px; 
+		background-repeat: 	no-repeat;
+	}
+	.iconApartment {
+		background-image: 	url(../img/iconApartment.svg);
+	}
+	.iconFood {
+		background-image: 	url(../img/iconFood.svg);
+	}
+	.iconSouvenirs {
+		background-image: 	url(../img/iconSouvenirs.svg);
+	}
+	.star {	
+		height: 			17px; 
+		background-image:	url("../img/star.svg");	
+	}	
+	.stars4 {
+		width:				70px;
+	}
+	.stars3 {
+		width:				55px;
+	}
+	.stars2 {
+		width:				35px;
+	}		
+	.youtubeButton {
+		display: 			block; 
+		margin-left: 		auto; 
+		margin-right:		auto; 
+		margin-top:			13px; 
+		width:				22px; 
+		height:				18px;	
+	}
+	.fbButton {	
+		display: 			block; 
+		margin-left:		auto; 
+		margin-right:		auto; 
+		margin-top:			10px; 
+		width:				12px; 
+		height:				22px;
+	}
+	.twitterButton {
+		display: 			block; 
+		margin-left: 		auto; 
+		margin-right:		auto; 
+		margin-top:			14px; 
+		width:				20px; 
+		height:				16px;	
+	}
+    .visit {
+		font-size:			21px;
+		line-height:		26px;
+		color:				black;
+		font-weight:		bold;
+	}
+    .hotelName {
+		font-size:			21px;
+		line-height:		26px;
+		color:				black;
+		font-weight:		bold;
+	}	
+	.hotelName:hover {
+		color:				#a3c7de;
+	}
+	.hotelName:active {
+		color:				#b2b2b2;
+	}	
+	.sort {
+		font-size:			12px;
+		line-height:		18px;
+		color:				black;
+	}
+	.sortType {
+		color:					rgba( 0, 0, 0, 0.302 );	
+		text-decoration:		underline;
+		text-decoration-style: 	dotted;		
+	}
+	.sortType:hover {
+		color:				#81b3d2;	
+	}	
+	.sortType:active {
+		color:				#000000;	
+		text-decoration:	none;		
+	}		
+	.sortTypeActive {
+		color:				#81b3d2;
+	}	
+	.btnHotelMoreInfo { 
+		color: 				#ffffff;
+		background-color:	#81b3d2;
+		font-weight:		bold;
+	}
+	.btnHotelMoreInfo:hover { 
+		color: 				#ffffff;	
+		background-color:	#669ec0;
+	}
+	.btnHotelMoreInfo:active { 
+		color:				#88b6d1;
+		background-color:	#5496bd;
+	}		
+	.btnHotelBookIt { 
+		color: 				#ffffff;
+		background-color:	#766357;
+		font-weight:		bold;
+	}	
+	.btnHotelBookIt:hover { 
+		color: 				#ffffff;
+		background-color:	#604e43;
+	}	
+	.btnHotelBookIt:active { 
+		color:				#695950;
+		background-color:	#503e33;
+	}	
+	.rating {
+		background-color: 	#f2f2f2;
+	}
+	.quInteresting {
+		font-size:			30px;
+	}
+	.quantity {
+		width:				32px;
+		text-align: 		center; 		
+	}	
+	.plusMinus	{
+		font-size:			18px;
+		font-weight:		bold;		
+		width:				32px;
+		height:				32px;
+		background-color:	#f2f2f2;
+		color:				#a9a9a9;		
+	}
+	.minus	{
+		width:					32px;
+		height:					32px;
+		background-color:		#f2f2f2;		
+		background-image: 		url("../img/minusGray.png");			
+		background-position:	center;
+		background-repeat:		no-repeat;		
+	}	
+	.minus:hover {
+		background-image: 		url("../img/minusBlack.png");					
+	}
+	.minus:active {
+		background-image: 		url("../img/minusBlue.png");					
+	}	
+	.plus	{
+		width:					32px;
+		height:					32px;
+		background-color:		#f2f2f2;		
+		background-image: 		url("../img/plusGray.png");			
+		background-position:	center;
+		background-repeat:		no-repeat;		
+	}		
+	.plus:hover {
+		background-image: 		url("../img/plusBlack.png");					
+	}
+	.plus:active {
+		background-image: 		url("../img/plusBlue.png");					
+	}
+	.calendar {
+		display: 			inline-block; 
+		height: 			36px; 
+		width:				34px; 
+		background:			url('../img/calendarGray.png');	
+		background-color: 	#f2f2f2; 		
+		background-repeat: 	no-repeat;
+		background-position:center; 		
+		vertical-align: 	bottom; 
+		margin-left:		-4px;
+	}
+	.calendar:hover {
+		display: 			inline-block; 
+		height: 			36px; 
+		width:				34px; 
+		background:			url('../img/calendarBlack.png');	
+		background-color: 	#f2f2f2; 		
+		background-repeat: 	no-repeat;
+		background-position:center; 		
+		vertical-align: 	bottom; 
+		margin-left:		-3px;
+	}
+	.calendar:active {
+		display: 			inline-block; 
+		height: 			36px; 
+		width:				34px; 
+		background:			url('../img/calendarBlue.png');	
+		background-color: 	#f2f2f2; 		
+		background-repeat: 	no-repeat;
+		background-position:center; 		
+		vertical-align: 	bottom; 
+		margin-left:		-3px;
+	}	
+	.searchButton {
+		background-color:	#81b3d2;
+		font-size:			21px;
+		line-height:		26px;
+		color:				white;
+		width:				458px;
+		height:				58px;
+	}
+	.searchButton:hover {
+		background-color:	#669ec0;		
+	}	
+	.searchButton:active {
+		background-color:	#5496bd;		
+	}		
+	.quantity {
+		width:				22px;
+	}		
+	.socialBtn {
+		display:			inline-block;
+		width: 				45px; 
+		height: 			45px; 
+		background-color: 	#81b3d2;
+	}	
+	.socialBtn:hover {
+		display:			inline-block;
+		width: 				45px; 
+		height: 			45px; 
+		background-color: 	#669ec0;
+	}	
+	.socialBtn:active {
+		display:			inline-block;
+		width: 				45px; 
+		height: 			45px; 
+		background-color: 	#5496bd;
+	}		
+	.htmlAcademy {
+		width: 				125px; 
+		height: 			43px; 
+		background-image: 	url("../img/logoBlack.svg");    
+	}		
+	.htmlAcademy:hover {
+		width: 				125px; 
+		height: 			43px; 
+		background-image: 	url("../img/logoBlue.svg");    
+	}	
+	.htmlAcademy:active {
+		width: 				125px; 
+		height: 			43px; 
+		background-image: 	url("../img/logoGray.svg");    
+	}
+	.arrowDown {
+		list-style-image:	url("../img/arrowDownGray.svg");
+	}
+	.arrowDown:hover {
+		list-style-image:	url("../img/arrowDownBlack.svg");		
+	}	
+	.arrowDown:active {
+		list-style-image:	url("../img/arrowDownBlue.svg");		
+	}		
+	.arrowDownActive {
+		list-style-image:	url("../img/arrowDownBlue.svg");		
+	}			
+	.arrowUp {
+		list-style-image:	url("../img/arrowUpGray.svg");
+	}	
+	.arrowUp:hover {
+		list-style-image:	url("../img/arrowUpBlack.svg");
+	}	
+	.arrowUp:active {
+		list-style-image:	url("../img/arrowUpBlue.svg");
+	}		
+	.arrowUpActive {
+		list-style-image:	url("../img/arrowUpBlue.svg");
+	}			
+>>>>>>> e0df17b859881d3e70bd535e151629086fae6287
